@@ -8,10 +8,18 @@ This system manages **students, faculty, exams, fees, leave, and admin operation
 ---
 
 ## Project Preview  
-
+### Admin Login
 ![Admin Login](https://drive.google.com/uc?export=view&id=1OodZwzAxKeKdMOMakVTuIxJG9x6Ctjjr)
+### Dashboard
 ![Dashboard](https://drive.google.com/uc?export=view&id=1ErkbOShoCCvvY5IX3ucl_cE-QsrKMbfm)
+### Student Form
 ![Student Form](https://drive.google.com/uc?export=view&id=1e_RZmTfAYG2qdTnyEl4Nwf6TKUcfIIQ7)
+
+## 📄 Project Report
+
+For a detailed understanding of the **University Management System**, including design, workflow, database schema, and feature explanation, you can access the full project report here:
+
+[📂 View Full Project Report (PDF)]([https://drive.google.com/file/d/1OodZwzAxKeKdMOMakVTuIxJG9x6Ctjjr/view?usp=drive_link](https://drive.google.com/file/d/1-VCqDbG2fmDy19SOcyiyw6qxk1RV5LJr/view?usp=drive_link))
 
 ---
 
