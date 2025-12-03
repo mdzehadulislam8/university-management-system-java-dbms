@@ -8,7 +8,6 @@ This system manages **students, faculty, exams, fees, leave, and admin operation
 ---
 
 ## 📸 Project Preview  
-> *(Replace these with your images — just upload images to GitHub and paste their links here.)*
 
 ![Admin Login](https://drive.google.com/uc?export=view&id=1OodZwzAxKeKdMOMakVTuIxJG9x6Ctjjr)
 ![Dashboard](https://drive.google.com/uc?export=view&id=1ErkbOShoCCvvY5IX3ucl_cE-QsrKMbfm)
