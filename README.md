@@ -3,11 +3,11 @@
 A complete **University Management System (UMS)** built using **Java (Swing)** and **MySQL**.  
 This system manages **students, faculty, exams, fees, leave, and admin operations** in a structured and automated way.
 
-🚀 **Ideal for educational institutions, coursework, portfolio projects, and real-world automation.**
+**Ideal for educational institutions, coursework, portfolio projects, and real-world automation.**
 
 ---
 
-## 📸 Project Preview  
+## Project Preview  
 
 ![Admin Login](https://drive.google.com/uc?export=view&id=1OodZwzAxKeKdMOMakVTuIxJG9x6Ctjjr)
 ![Dashboard](https://drive.google.com/uc?export=view&id=1ErkbOShoCCvvY5IX3ucl_cE-QsrKMbfm)
@@ -15,49 +15,49 @@ This system manages **students, faculty, exams, fees, leave, and admin operation
 
 ---
 
-## ✨ Key Features
+## Key Features
 
-### 🔐 **Admin Panel**
+### **Admin Panel**
 - Secure admin login  
 - Centralized dashboard with full control  
 
-### 👨‍🎓 Student Management
+### Student Management
 - Add / update / view student details  
 - Automatic ID generation  
 - Leave request handling  
 - View academic and personal information  
 
-### 👨‍🏫 Faculty Management
+### Faculty Management
 - Add / update / view teacher information  
 - Track faculty leave  
 - Subject & course assignment  
 
-### 📝 Examination Module
+### Examination Module
 - Enter student marks  
 - Auto-calculated results  
 - View results using **JOIN operations**  
 - Semester-wise marksheets  
 
-### 💰 Fee Management
+### Fee Management
 - Course-wise fee structure  
 - Auto fee calculation  
 - Generate student payment details  
 
-### 🛢 Database Features
+### Database Features
 - Fully optimized **MySQL relational schema**  
 - Triggers  
 - Events  
 - Primary/foreign key constraints  
 - JOIN operations (left, right)  
 
-### 🛠 Utilities
+### Utilities
 - Built-in Notepad  
 - Calculator  
 - About section  
 
 ---
 
-## 🏗️ Technology Stack
+## Technology Stack
 
 | Component | Technology |
 |----------|------------|
@@ -68,7 +68,7 @@ This system manages **students, faculty, exams, fees, leave, and admin operation
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 
 ```
 /src
@@ -92,7 +92,7 @@ README.md
 
 ---
 
-## 🗄️ Database Schema (MySQL ER Diagram)
+## Database Schema (MySQL ER Diagram)
 > *(Add your ER diagram image here)*  
 
 ```
@@ -138,7 +138,7 @@ Password: admin123
 
 ---
 
-## 🧪 Features Demonstration  
+## Features Demonstration  
 ### ✔ Add New Student  
 ### ✔ Add New Faculty  
 ### ✔ Update Details  
@@ -151,7 +151,7 @@ Password: admin123
 
 ---
 
-## 📊 SQL Operations Used
+## SQL Operations Used
 - **INNER JOIN**
 - **LEFT JOIN**
 - **RIGHT JOIN**
@@ -162,7 +162,7 @@ Password: admin123
 
 ---
 
-## 🚀 Future Improvements
+## Future Improvements
 - Mobile App (Android)
 - More secure authentication
 - Cloud database integration
@@ -177,9 +177,4 @@ Password: admin123
 CSE, Green University of Bangladesh  
 ID: 222902069  
 
----
-
-## ⭐ Support This Project
-If you like this project, please **star this repository** ⭐ on GitHub —  
-It motivates me to create more amazing projects!
 
