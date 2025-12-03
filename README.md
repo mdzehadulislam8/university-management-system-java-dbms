@@ -93,11 +93,8 @@ README.md
 ---
 
 ## Database Schema (MySQL ER Diagram)
-> *(Add your ER diagram image here)*  
 
-```
 ![ER Diagram](https://drive.google.com/uc?export=view&id=1VDSPsICZrpHKpo8uxWMGwJcDgjOBUGbj)
-```
 
 ---
 
