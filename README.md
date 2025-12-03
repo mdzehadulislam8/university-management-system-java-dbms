@@ -96,7 +96,7 @@ README.md
 > *(Add your ER diagram image here)*  
 
 ```
-![ER Diagram](images/er-diagram.png)
+![ER Diagram](https://drive.google.com/uc?export=view&id=1VDSPsICZrpHKpo8uxWMGwJcDgjOBUGbj)
 ```
 
 ---
