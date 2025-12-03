@@ -19,7 +19,8 @@ This system manages **students, faculty, exams, fees, leave, and admin operation
 
 For a detailed understanding of the **University Management System**, including design, workflow, database schema, and feature explanation, you can access the full project report here:
 
-[📂 View Full Project Report (PDF)]([https://drive.google.com/file/d/1OodZwzAxKeKdMOMakVTuIxJG9x6Ctjjr/view?usp=drive_link](https://drive.google.com/file/d/1-VCqDbG2fmDy19SOcyiyw6qxk1RV5LJr/view?usp=drive_link))
+[📂 View Full Project Report (PDF)](https://drive.google.com/file/d/1-VCqDbG2fmDy19SOcyiyw6qxk1RV5LJr/view?usp=drive_link)
+
 
 ---
 
