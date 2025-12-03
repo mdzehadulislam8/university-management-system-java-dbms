@@ -1,194 +1,186 @@
-# 🎓 University Management System (Java + MySQL)
+# 🎓 University Management System | Java + MySQL
 
-A complete **University Management System** developed using **Java (Swing GUI)** and **MySQL**.  
-This system streamlines university operations such as student & faculty management, examination control, fee processing, and leave tracking.
+A complete **University Management System (UMS)** built using **Java (Swing)** and **MySQL**.  
+This system manages **students, faculty, exams, fees, leave, and admin operations** in a structured and automated way.
 
-This project is created for **Database System Lab (CSE-210)** at  
-**Green University of Bangladesh**.
+🚀 **Ideal for educational institutions, coursework, portfolio projects, and real-world automation.**
 
 ---
 
-## Features
+## 📸 Project Preview  
+> *(Replace these with your images — just upload images to GitHub and paste their links here.)*
 
-### Admin Module
-- Secure Admin Login
-- Admin Dashboard with full controls
-- Add/Edit/Delete Students
-- Add/Edit/Delete Teachers
-- View all student & teacher details
+![Admin Login](https://drive.google.com/uc?export=view&id=1OodZwzAxKeKdMOMakVTuIxJG9x6Ctjjr)
+![Dashboard](https://drive.google.com/uc?export=view&id=1ErkbOShoCCvvY5IX3ucl_cE-QsrKMbfm)
+![Student Form](https://drive.google.com/uc?export=view&id=1e_RZmTfAYG2qdTnyEl4Nwf6TKUcfIIQ7)
 
-### Student Management
-- Add new student  
-- Update student info  
-- View student details  
-- Manage semester fees  
-- Track semester drop/leave
+---
 
-### Teacher Management
-- Add new faculty  
-- Update teacher info  
-- View faculty details  
-- Teacher leave handling  
+## ✨ Key Features
 
-### Examination System
-- Insert student marks  
-- Fetch results using JOIN operations  
-- Subject-wise marks display
+### 🔐 **Admin Panel**
+- Secure admin login  
+- Centralized dashboard with full control  
 
-### Leave Management
-- Student leave submission  
-- Teacher leave submission  
-- Leave details shown using JOIN queries  
+### 👨‍🎓 Student Management
+- Add / update / view student details  
+- Automatic ID generation  
+- Leave request handling  
+- View academic and personal information  
 
-### Fee Management
-- View fee structure  
-- Auto-calculate semester fee  
-- Store all fees in database
+### 👨‍🏫 Faculty Management
+- Add / update / view teacher information  
+- Track faculty leave  
+- Subject & course assignment  
 
-### Utilities
+### 📝 Examination Module
+- Enter student marks  
+- Auto-calculated results  
+- View results using **JOIN operations**  
+- Semester-wise marksheets  
+
+### 💰 Fee Management
+- Course-wise fee structure  
+- Auto fee calculation  
+- Generate student payment details  
+
+### 🛢 Database Features
+- Fully optimized **MySQL relational schema**  
+- Triggers  
+- Events  
+- Primary/foreign key constraints  
+- JOIN operations (left, right)  
+
+### 🛠 Utilities
 - Built-in Notepad  
-- Built-in Calculator  
-- About System section  
+- Calculator  
+- About section  
 
 ---
 
-## Tech Stack
+## 🏗️ Technology Stack
 
 | Component | Technology |
 |----------|------------|
-| Language | Java (Swing + AWT) |
-| Database | MySQL |
-| Connectivity | JDBC |
-| IDE Used | NetBeans |
-| Server | XAMPP MySQL |
+| **Frontend (GUI)** | Java Swing / AWT |
+| **Backend** | Java |
+| **Database** | MySQL |
+| **Tools Used** | JDBC, XAMPP, NetBeans |
 
 ---
 
-## System Architecture
+## 📂 Project Structure
 
-### ER Diagram  
-🔶 **Add Image Here** (Example format)  
+```
+/src
+  /university.management.system
+    Conn.java
+    Login.java
+    Dashboard.java
+    Student.java
+    Faculty.java
+    Examination.java
+    Fees.java
+    ...
+/database
+  ums_schema.sql
+  sample_data.sql
+/images
+  admin-login.png
+  dashboard.png
+README.md
+```
 
-![ER Diagram](https://drive.google.com/uc?export=view&id=1VDSPsICZrpHKpo8uxWMGwJcDgjOBUGbj)
+---
 
+## 🗄️ Database Schema (MySQL ER Diagram)
+> *(Add your ER diagram image here)*  
 
-
-
-### Database Schema  
-Includes:
-- Student Table  
-- Teacher Table  
-- Leave Tables  
-- Fee Structure  
-- Marks Table  
-- Triggers  
-- Join Operations  
-- Auto-Increment PKs & FK Relationships  
+```
+![ER Diagram](images/er-diagram.png)
+```
 
 ---
 
 ## ⚙️ Installation & Setup
 
-### 1️⃣ Clone the Repository
-```bash
-git clone https://github.com/your-username/University-Management-System-Java-MySQL.git
-```
+### 1️⃣ Install Required Tools  
+- MySQL  
+- XAMPP / WAMP  
+- NetBeans / IntelliJ IDEA  
+- JDK 8+  
 
-### 2️⃣ Import Database
-- Open **phpMyAdmin**
-- Create a new database:
+### 2️⃣ Import the MySQL Database  
 ```sql
-CREATE DATABASE universitymanagementsystem;
+Import `universitymanagementsystem.sql`
 ```
-- Import the provided `.sql` file
 
-### 3️⃣ Configure JDBC  
-Inside `Conn.java`:
+### 3️⃣ Update Database Connection  
+In `Conn.java`:
+
 ```java
 c = DriverManager.getConnection(
-    "jdbc:mysql://localhost:3307/universitymanagementsystem", 
-    "root", 
+    "jdbc:mysql://localhost:3307/universitymanagementsystem",
+    "root",
     ""
 );
----
-
-### 4️⃣ Run the Project
-- Open project in **NetBeans**
-- Clean & Build  
-- Run  
-
----
-
-## Screenshots
-
-### Admin Login  
-🔶 **Add Image Here**
----
-![Admin Login](https://drive.google.com/uc?export=view&id=1OodZwzAxKeKdMOMakVTuIxJG9x6Ctjjr)
-
----
-
-### Admin Dashboard  
-🔶 **Add Image Here**
----
-![Admin Dashboard](https://drive.google.com/uc?export=view&id=1ErkbOShoCCvvY5IX3ucl_cE-QsrKMbfm)
-
----
-
-### Add New Student  
-🔶 **Add Image Here**
----
-![Add Student](https://drive.google.com/uc?export=view&id=1oZN7ac73Xrw-XXeIe9qcqSLcFFnt_5rc)
-
----
-
-### Add New Faculty  
-🔶 **Add Image Here**
 ```
-![Add Faculty](https://drive.google.com/uc?export=view&id=1HQxCH3bE4KJR_jp_wH9FphKd6zmUjqsh)
 
----
+### 4️⃣ Run the Project  
+Open project in NetBeans → Run  
+Use default admin login:
 
-### Insert Marks  
-🔶 **Add Image Here**
 ```
-![Insert Marks](https://your-image-link)
----
+Username: admin
+Password: admin123
+```
 
-### Fee Structure  
-🔶 **Add Image Here**
----
-![Fee Structure](https://your-image-link)
----
-
-### Leave Details  
-🔶 **Add Image Here**
+*(Change it from the database for security)*
 
 ---
 
-## Results & Discussion
-
-The system improves university workflow by:
-- Centralizing academic and administrative data  
-- Reducing human error through automation  
-- Enhancing data accuracy using triggers & joins  
-- Ensuring faster access to student/faculty records  
-- Providing a full admin-controlled environment  
-
----
-
-## Future Enhancements
-- Mobile App for admin panel  
-- Cloud-based database  
-- Role-based login (Admin / Teacher / Student)  
-- JavaFX modern UI  
-- Analytics dashboard  
+## 🧪 Features Demonstration  
+### ✔ Add New Student  
+### ✔ Add New Faculty  
+### ✔ Update Details  
+### ✔ View Records  
+### ✔ Enter Marks  
+### ✔ Generate Results  
+### ✔ Fee Structure  
+### ✔ Student Fee Submission  
+### ✔ Admin Tools (Calculator / Notepad)
 
 ---
 
-## Developer
+## 📊 SQL Operations Used
+- **INNER JOIN**
+- **LEFT JOIN**
+- **RIGHT JOIN**
+- **AUTO INCREMENT**
+- **TRIGGERS**
+- **EVENT SCHEDULER**
+- **PRIMARY & FOREIGN KEYS**
 
+---
+
+## 🚀 Future Improvements
+- Mobile App (Android)
+- More secure authentication
+- Cloud database integration
+- Modern UI with JavaFX / Web UI
+- Automated notifications
+- Role-based user access (Admin/Teacher/Student)
+
+---
+
+## 🧑‍💻 Author
 **Md. Zehadul Islam**  
-Department of Computer Science & Engineering  
-Green University of Bangladesh  
+CSE, Green University of Bangladesh  
+ID: 222902069  
+
+---
+
+## ⭐ Support This Project
+If you like this project, please **star this repository** ⭐ on GitHub —  
+It motivates me to create more amazing projects!
 
