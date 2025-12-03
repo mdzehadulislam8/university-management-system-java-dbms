@@ -1,7 +1,11 @@
 # 🎓 University Management System | Java + MySQL
 
+![GitHub stars](https://img.shields.io/github/stars/your-username/your-repo?style=social)
+![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
+
 A complete **University Management System (UMS)** built using **Java (Swing)** and **MySQL**.  
 This system manages **students, faculty, exams, fees, leave, and admin operations** in a structured and automated way.
+
 
 **Ideal for educational institutions, coursework, portfolio projects, and real-world automation.**
 
