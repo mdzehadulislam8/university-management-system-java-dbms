@@ -68,11 +68,11 @@ This project is created for **Database System Lab (CSE-210)** at
 
 ### ER Diagram  
 🔶 **Add Image Here** (Example format)  
-```
+
 ![ER Diagram](https://drive.google.com/uc?export=view&id=1VDSPsICZrpHKpo8uxWMGwJcDgjOBUGbj)
 
 
-```
+
 
 ### Database Schema  
 Includes:
@@ -110,7 +110,7 @@ c = DriverManager.getConnection(
     "root", 
     ""
 );
-```
+---
 
 ### 4️⃣ Run the Project
 - Open project in **NetBeans**
@@ -123,43 +123,43 @@ c = DriverManager.getConnection(
 
 ### Admin Login  
 🔶 **Add Image Here**
-```
+---
 ![Admin Login](https://drive.google.com/uc?export=view&id=1OodZwzAxKeKdMOMakVTuIxJG9x6Ctjjr)
 
-```
+---
 
 ### Admin Dashboard  
 🔶 **Add Image Here**
-```
+---
 ![Admin Dashboard](https://drive.google.com/uc?export=view&id=1ErkbOShoCCvvY5IX3ucl_cE-QsrKMbfm)
 
-```
+---
 
 ### Add New Student  
 🔶 **Add Image Here**
-```
+---
 ![Add Student](https://drive.google.com/uc?export=view&id=1oZN7ac73Xrw-XXeIe9qcqSLcFFnt_5rc)
 
-```
+---
 
 ### Add New Faculty  
 🔶 **Add Image Here**
 ```
 ![Add Faculty](https://drive.google.com/uc?export=view&id=1HQxCH3bE4KJR_jp_wH9FphKd6zmUjqsh)
 
-```
+---
 
 ### Insert Marks  
 🔶 **Add Image Here**
 ```
 ![Insert Marks](https://your-image-link)
-```
+---
 
 ### Fee Structure  
 🔶 **Add Image Here**
-```
+---
 ![Fee Structure](https://your-image-link)
-```
+---
 
 ### Leave Details  
 🔶 **Add Image Here**
